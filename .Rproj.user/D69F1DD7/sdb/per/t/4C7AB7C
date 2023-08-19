@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "                 Changes in DAAGbio version 0.63\n                 \nNEW FEATURES\n  o The dataset plantStressCounts, holding mRNA counts for \n    three replicates of each of three treatments, has been\n    added.\n\n\n",
+    "created" : 1471148947476.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1551621204",
+    "id" : "4C7AB7C",
+    "lastKnownWriteTime" : 1471149315,
+    "last_content_update" : 1471149315494,
+    "path" : "~/packages/DAAGbio/NEWS",
+    "project_path" : "NEWS",
+    "properties" : {
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "text"
+}

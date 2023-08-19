@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "## Export all\n\nexport(imgplot, plotprintseq, xplot)\nimportFrom(limma, voom, lmFit, eBayes, makeContrasts, contrasts.fit)\nimportFrom(\"grDevices\", \"dev.off\")\nimportFrom(\"graphics\", \"abline\", \"axis\", \"box\", \"boxplot\", \"image\",\n             \"mtext\", \"par\", \"plot\", \"points\", \"rect\", \"text\")\nimportFrom(\"stats\", \"quantile\")\n",
+    "created" : 1489008049221.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2014609428",
+    "id" : "D46DAFD7",
+    "lastKnownWriteTime" : 1471146698,
+    "last_content_update" : 1471146698,
+    "path" : "~/packages/DAAGbio/NAMESPACE",
+    "project_path" : "NAMESPACE",
+    "properties" : {
+    },
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_namespace"
+}

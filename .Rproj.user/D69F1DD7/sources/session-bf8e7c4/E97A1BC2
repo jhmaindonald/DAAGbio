@@ -1,0 +1,23 @@
+{
+    "id": "E97A1BC2",
+    "path": "~/packages/DAAGbio/vignettes/marray-notes.Rnw",
+    "project_path": "vignettes/marray-notes.Rnw",
+    "type": "sweave",
+    "hash": "3212980378",
+    "contents": "",
+    "dirty": false,
+    "created": 1489007362337.0,
+    "source_on_save": false,
+    "relative_order": 5,
+    "properties": {
+        "Source": "Source"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1489009703,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1489009703839,
+    "read_only": false,
+    "read_only_alternatives": []
+}

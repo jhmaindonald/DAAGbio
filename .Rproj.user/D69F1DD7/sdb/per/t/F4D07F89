@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "\\name{DEnma}\n\\alias{DEnma}\n\\docType{data}\n\\title{Spotted microarray M and A values; differentially expressed controls}\n\\description{\n  Values, derived from the data in \\code{coralRG}, are the subset of the\n  M and A values, after normalisation within and between arrays, for the\n  differentially expressed controls\n}\n\\usage{data(DEnma)}\n\\format{\n  The format is:\n  Formal class 'MAList' [package \"limma\"]\n  Can be accessed as a list, with named elements\n  \"targets\", \"source\",  \"genes\",  \"printer\", \"M\" and \"A\"\n}\n\\source{\nCentre for the Molecular Genomics of Genetic Development, ANU\n}\n\\examples{\ndata(DEnma)\n}\n\\keyword{datasets}\n",
+    "created" : 1471151896411.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "297698236",
+    "id" : "F4D07F89",
+    "lastKnownWriteTime" : 1175169374,
+    "last_content_update" : 1175169374,
+    "path" : "~/packages/DAAGbio/man/DEnma.Rd",
+    "project_path" : "man/DEnma.Rd",
+    "properties" : {
+    },
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_doc"
+}

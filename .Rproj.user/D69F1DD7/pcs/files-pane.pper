@@ -1,9 +1,9 @@
 {
-    "path": "~/packages/DAAGbio/man",
+    "path": "~/packages/DAAGbio",
     "sortOrder": [
         {
             "columnIndex": 2,
-            "ascending": true
+            "ascending": false
         }
     ]
 }

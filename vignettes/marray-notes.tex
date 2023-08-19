@@ -1,6 +1,6 @@
-\documentclass[a4paper,9pt]{article}\usepackage[]{graphicx}\usepackage[]{color}
-%% maxwidth is the original width if it is less than linewidth
-%% otherwise use linewidth (to make sure the graphics do not exceed the margin)
+\documentclass[a4paper,9pt]{article}\usepackage[]{graphicx}\usepackage[]{xcolor}
+% maxwidth is the original width if it is less than linewidth
+% otherwise use linewidth (to make sure the graphics do not exceed the margin)
 \makeatletter
 \def\maxwidth{ %
   \ifdim\Gin@nat@width>\linewidth
@@ -175,7 +175,7 @@ subdirectory in the {\em DAAGbio} package installation.
 
 
 {\ttfamily\noindent\itshape\color{messagecolor}{\#\# Loading required package: limma}}\begin{alltt}
-\hlstd{path2data} \hlkwb{<-} \hlkwd{system.file}\hlstd{(}\hlstr{"doc"}\hlstd{,} \hlkwc{package}\hlstd{=}\hlstr{"DAAGbio"}\hlstd{)}
+\hlstd{path2data} \hlkwb{<-} \hlkwd{system.file}\hlstd{(}\hlstr{"extdata"}\hlstd{,} \hlkwc{package}\hlstd{=}\hlstr{"DAAGbio"}\hlstd{)}
 \end{alltt}
 \end{kframe}
 \end{knitrout}
@@ -295,7 +295,6 @@ the expected 100 units of area.
 \end{alltt}
 \end{kframe}
 \includegraphics[width=\maxwidth]{figure/unnamed-chunk-2-1} 
-
 \end{knitrout}
 The \textit{limma} package does actually allow for the use of area
 as a measure of quality, with information from spots that are larger
@@ -329,7 +328,6 @@ and enter:
 \end{alltt}
 \end{kframe}
 \includegraphics[width=\maxwidth]{figure/printseq-1} 
-
 \end{knitrout}
 
 
@@ -408,7 +406,6 @@ plots that use \texttt{imageplot()}:
 \end{alltt}
 \end{kframe}
 \includegraphics[width=\maxwidth]{figure/unnamed-chunk-5-1} 
-
 \end{knitrout}
 This should be repeated for each different half-slide, for both red and
 green, and similarly for the green background.  To get the plot for the
@@ -421,7 +418,6 @@ second half-slide, type:
 \end{alltt}
 \end{kframe}
 \includegraphics[width=\maxwidth]{figure/unnamed-chunk-6-1} 
-
 \end{knitrout}
 
 The plots can be obtained all six at once, in a three rows by two
@@ -481,7 +477,6 @@ Try the following:
 \end{alltt}
 \end{kframe}
 \includegraphics[width=\maxwidth]{figure/unnamed-chunk-7-1} 
-
 \end{knitrout}
 This plots the unnormalized log-ratios (the M-values) against the
 the averages of the log-intensities for the two separate channels,
@@ -510,7 +505,6 @@ It is also possible to do the following:
 \end{alltt}
 \end{kframe}
 \includegraphics[width=\maxwidth]{figure/unnamed-chunk-8-1} 
-
 \end{knitrout}
 A different curve is fitted for each of the print tip groups.
 There does seem to be some difference in dye bias between the
@@ -525,7 +519,6 @@ Next, we apply print tip loess normalization, and check the MA plots:
 \end{alltt}
 \end{kframe}
 \includegraphics[width=\maxwidth]{figure/unnamed-chunk-9-1} 
-
 \end{knitrout}
 Next, we check whether normalization seems required between arrays:
 \begin{knitrout}
@@ -548,7 +541,6 @@ normalize between arrays, and repeat the boxplot:
 \end{alltt}
 \end{kframe}
 \includegraphics[width=\maxwidth]{figure/unnamed-chunk-11-1} 
-
 \end{knitrout}
 The scaling ensures that the medians, and the upper and lower quartiles,
 agree across the different slides.
@@ -569,7 +561,6 @@ from the total data.
 \end{alltt}
 \end{kframe}
 \includegraphics[width=\maxwidth]{figure/unnamed-chunk-12-1} 
-
 \end{knitrout}
 The differentially expressed controls line up remarkably well
 across the different half-slides.  Notice that half-slide 5 is the odd
@@ -586,7 +577,6 @@ We now repeat this exercise with the normalized data:
 \end{alltt}
 \end{kframe}
 \includegraphics[width=\maxwidth]{figure/unnamed-chunk-13-1} 
-
 \end{knitrout}
 Half-slide 5 is still a maverick.  The differentially expressed
 controls from the other half-slides line up beautifully.\newline [Dear
@@ -604,7 +594,6 @@ especially at half-slide 5, thus:
 \end{alltt}
 \end{kframe}
 \includegraphics[width=\maxwidth]{figure/unnamed-chunk-14-1} 
-
 \end{knitrout}
 Something bad clearly happened to the left side of this half-slide!
 
@@ -688,7 +677,6 @@ $t$-statistics and do a qq-plot:
 \end{alltt}
 \end{kframe}
 \includegraphics[width=\maxwidth]{figure/unnamed-chunk-17-1} 
-
 \end{knitrout}
 The majority of genes lie on a line that goes through the centre of
 the plot.  Those that lie off this (below it on the left, or above it
@@ -732,7 +720,6 @@ Here is another type of plot:
 \end{alltt}
 \end{kframe}
 \includegraphics[width=\maxwidth]{figure/unnamed-chunk-19-1} 
-
 \end{knitrout}
 
 \paragraph{Exercise:} Change the prior probability to 0.02, i.e.
@@ -789,7 +776,6 @@ Apply print tip loess normalization, and check the MA plots:
 \end{alltt}
 \end{kframe}
 \includegraphics[width=\maxwidth]{figure/unnamed-chunk-21-1} 
-
 \end{knitrout}
 Next, we check whether normalization seems required between arrays,
 then scale normalize between arrays, and repeat the boxplot:
@@ -797,12 +783,15 @@ then scale normalize between arrays, and repeat the boxplot:
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
 \begin{alltt}
 \hlkwd{boxplot}\hlstd{(MA2}\hlopt{$}\hlstd{M} \hlopt{~} \hlkwd{col}\hlstd{(MA2}\hlopt{$}\hlstd{M),} \hlkwc{names} \hlstd{=} \hlkwd{colnames}\hlstd{(MA2}\hlopt{$}\hlstd{M))}
+\end{alltt}
+\end{kframe}
+\includegraphics[width=\maxwidth]{figure/unnamed-chunk-22-1} 
+\begin{kframe}\begin{alltt}
 \hlstd{nMA2} \hlkwb{<-} \hlkwd{normalizeBetweenArrays}\hlstd{(MA2)}
 \hlkwd{boxplot}\hlstd{(nMA2}\hlopt{$}\hlstd{M} \hlopt{~} \hlkwd{col}\hlstd{(nMA2}\hlopt{$}\hlstd{M),} \hlkwc{names} \hlstd{=} \hlkwd{colnames}\hlstd{(nMA2}\hlopt{$}\hlstd{M))}
 \end{alltt}
 \end{kframe}
-\includegraphics[width=\maxwidth]{figure/unnamed-chunk-22-1} 
-
+\includegraphics[width=\maxwidth]{figure/unnamed-chunk-22-2} 
 \end{knitrout}
 
 \subsubsection*{Slide 5, again!}
@@ -815,7 +804,6 @@ especially at half-slide 5, thus:
 \end{alltt}
 \end{kframe}
 \includegraphics[width=\maxwidth]{figure/unnamed-chunk-23-1} 
-
 \end{knitrout}
 Use of the quality information has not made much difference to this plot:
 
@@ -841,7 +829,6 @@ $t$-statistics and do a qq-plot:
 \end{alltt}
 \end{kframe}
 \includegraphics[width=\maxwidth]{figure/unnamed-chunk-25-1} 
-
 \end{knitrout}
 
 Next we print out a table that shows the top 50 differentially
@@ -899,7 +886,6 @@ different from \texttt{imageplot()}. Try:
 \end{alltt}
 \end{kframe}
 \includegraphics[width=\maxwidth]{figure/unnamed-chunk-29-1} 
-
 \end{knitrout}
 By default, this shows just the smallest 5\% of intensities and the
 largest 5\% of intensities.

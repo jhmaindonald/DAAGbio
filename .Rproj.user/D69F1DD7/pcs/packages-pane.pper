@@ -1,7 +1,7 @@
 {
     "installOptions": {
-        "installDependencies": true,
-        "installFromRepository": false,
-        "libraryPath": "/Users/johnm1/Library/R/3.3/library"
+        "installFromRepository": true,
+        "libraryPath": "/Library/Frameworks/R.framework/Versions/4.3-x86_64/Resources/library",
+        "installDependencies": true
     }
 }

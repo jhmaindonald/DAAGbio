@@ -1,2 +1,5 @@
 ^.*\.Rproj$
 ^\.Rproj\.user$
+^vignettes/figure
+^cran-comments.md
+^CRAN-SUBMISSION$

@@ -12,5 +12,5 @@ Suggests: DAAG, locfit, knitr
 ZipData: no
 License: GPL (>=2)
 VignetteBuilder: knitr
-URL: http://maths-people.anu.edu.au/~johnm/
+URL: https://github.com/jhmaindonald/DAAGbio/
 

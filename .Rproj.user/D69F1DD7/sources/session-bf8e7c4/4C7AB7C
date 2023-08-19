@@ -3,21 +3,23 @@
     "path": "~/packages/DAAGbio/NEWS",
     "project_path": "NEWS",
     "type": "text",
-    "hash": "1551621204",
+    "hash": "81941335",
     "contents": "",
     "dirty": false,
     "created": 1471148947476.0,
     "source_on_save": false,
     "relative_order": 5,
     "properties": {
-        "Source": "Source"
+        "Source": "Source",
+        "cursorPosition": "6,0",
+        "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1471149315,
+    "lastKnownWriteTime": 1692433438,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1471149315494,
+    "last_content_update": 1692433438995,
     "read_only": false,
     "read_only_alternatives": []
 }
